@@ -1,0 +1,192 @@
+
+.header-part{
+  background-color:#f39c12;
+  height:50px;
+  width: 100%;
+  color:#fff; 
+  position: fixed !important;
+  z-index: 1;
+  border-bottom:2px solid #357E9F;
+}
+
+.header-right i{
+  font-size: 20px;
+  margin-right: 20px;
+}
+.header-right i:hover{
+  color:#797979;
+}
+.header-right img{
+  border-radius: 50%;
+  height:40px;
+  margin-top:-3px;
+}
+.dropdown-toggle{
+  background-color: transparent !important;
+  border:none !important;
+  box-shadow: none !important;
+  margin-top:-5px;
+}
+.show{
+  top:4px !important;
+}
+.sidebar{
+  background-color:#212C2E;
+  color:#fff;
+  width:20%;
+  top:50px;
+  height:625px;
+  position: fixed !important;
+  overflow-y:auto;
+}
+.sidebar .main-menu{
+  margin:0px;
+  padding:0px;
+}
+.sidebar .main-menu li{
+  list-style: none;
+  margin:0px;
+}
+.sidebar .main-menu li a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 20px;
+  color:#fff;
+  width: 100%;
+}
+.sidebar .main-menu li .sub-menu{
+  padding: 0px;
+  display: none;
+  background-color: #2C3A3D;
+}
+.sidebar .main-menu li .sub-menu li a{
+  width: 100%;
+  padding-left:40px;
+}
+.sub-active{
+  background-color:#1a2732; 
+}
+.content-main{
+  margin:51px 275px;
+  padding:15px;
+}
+.fa-angle-right{
+  float:right;
+  transition:transform 0.4s ease-in-out;
+}
+.active{
+  background-color:#f39c12;
+}
+
+.image-container{
+  width: 200px !important;
+  height: 50px;
+  background: white !important;
+  position: absolute;
+  border-radius: 40%;
+  padding: 0px;
+  text-align: .input-group-text{
+  background: #c0392b !important;
+  color: white ! important;
+  border:0 !important;
+  border-radius: 0.25rem 0 0 0.25rem !important;
+}
+
+.input-group-text{
+  background: #c0392b !important;
+  color: white ! important;
+  border:0 !important;
+  border-radius: 0.25rem 0 0 0.25rem !important;
+}
+
+.input-user,
+.input_pass:focus{
+  box-shadow: none!important;
+  outline: 0px !important;
+}
+
+.register_card{
+  height: 500px;
+  width: 400px;
+  margin-top: 75px;
+  margin-bottom: auto;
+  background: #f39c12!important;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-box-shadow:0 4px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -moz-box-shadow:0 4px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 5px;
+  
+}
+
+.brand_logo_container{
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  top: -75px;
+  border-radius: 50%;
+  background: #60a3bc;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.brand_logo{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+
+
+}
+
+.form_container{
+  margin-top: 100px;
+}
+
+.login_btn{
+  width: 100%;
+  background: #c0392b !important;
+  color:white!important;
+}
+
+.login_btn:focus{
+  box-shadow: none!important;
+  outline:0px !important;
+}
+
+.login_container{
+  padding: 0 2rem;
+}
+
+.input-group-text{
+  background: #c0392b !important;
+  color: white ! important;
+  border:0 !important;
+  border-radius: 0.25rem 0 0 0.25rem !important;
+}
+
+.input-user,
+.input_pass:focus{
+  box-shadow: none!important;
+  outline: 0px !important;
+}
+
+
+.custom-checkbox .custom-control-input:checked~.custom-control-lable::before{
+  background-color:#c0392b !important;
+}
+
+.icon_type{
+  background: white !important;
+  color: white ! important;
+  border:0 !important;
+  border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.bg-colour{
+  background-color: #f39c12!important;
+}
